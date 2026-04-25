@@ -83,7 +83,7 @@ graph TD
 SKT-OMNI-ARC-V49/
 ├── src/
 │   ├── main.py                    # Gradio dashboard + main orchestrator
-│   ├── agents/
+│   ├── agents/ # No Need so removed
 │   │   ├── vision_extractor.py
 │   │   ├── compliance_guard.py
 │   │   ├── logical_validator.py
@@ -91,19 +91,11 @@ SKT-OMNI-ARC-V49/
 │   ├── integrations/
 │   │   ├── circle_wallet.py       # Programmable Wallets SDK
 │   │   └── arc_relayer.py         # Arc L1 interaction
-│   ├── utils/
+│   ├── utils/ # Same Logic add in main.py
 │   │   ├── security.py
 │   │   └── logging.py
 │   └── config.py
-├── templates/                     # Gradio UI customizations
-├── data/                          # Mock datasets + encrypted sample logs
-├── docs/
-│   ├── API_SPEC.md
-│   └── ARCHITECTURE.md
-├── requirements.txt
-├── .env.example
-├── Dockerfile
-├── docker-compose.yml
+├── templates/ # Html                ├── requirements.txt
 └── README.md
 ```
 
