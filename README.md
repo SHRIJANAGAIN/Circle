@@ -271,4 +271,4 @@ Our demo showcases the agent processing a real-world merchant receipt (e.g., Bar
 We welcome constructive feedback and collaboration from the developer community on technical aspects.
 
 ---
-
+tested with trayambak try
